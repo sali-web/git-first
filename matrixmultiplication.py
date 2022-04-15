@@ -1,7 +1,7 @@
 p = int(input("enter the row number of matrix1:"))
 q = int(input("enter the column  number of matrix2:"))
 n = int(input("enter the column number of matrix1/row numbeer of matrix2:"))
-
+#asking from user
 print("enter the elemnets for matrix1:")
 matrix1 = [[int(input()) for i in range(n)] for j in range(p)]
 print("matrix1:")
