@@ -22,7 +22,7 @@ for i in range(p):
     for j in range(q):
         for k in range(n):
             result[i][j] = result[i][j] + matrix1[i][k] + matrix2[k][j]
-
+##print result
 print("result is :")
 for i in range(p):
     for j in range(q):
